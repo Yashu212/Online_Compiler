@@ -1,12 +1,58 @@
-# React + Vite
+# 💻 Online Compiler Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** interface for the CodePlayground platform — an interactive code editor that allows users to write, compile, and execute code in multiple languages like Python, C++, Java, and JavaScript.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📝 Monaco-based code editor with syntax highlighting
+- 🌗 Dark and light theme support
+- 🚀 Execute code across multiple languages
+- 🔁 Undo/Redo functionality
+- 📁 Open/Save files locally
+- ⌨️ Input and Output terminals
+- 🌐 Communicates with a microservices-based backend via a gateway API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Vite)
+- **Monaco Editor**
+- **Tailwind CSS**
+- **Custom REST API Gateway** for backend requests
+
+---
+
+## 🧪 Supported Languages
+
+- Python
+- C++
+- Java
+- JavaScript
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Yashu212/Online_Compiler.git
+cd Online_Compiler
+npm install
+npm run dev
+```
+## 🌐 Backend Integration
+
+This frontend connects to a backend hosted at:
+``` url
+https://codeeditor.up.railway.app/run
+```
+
+Make sure the backend (API Gateway and language services) is running before using the **Run** button.
+You can update the backend URL directly in the `handleRun` function or configure it using environment variables for production deployment.
+
+## 👨‍💻 Author
+
+Built by **Yash Shukla** to provide a scalable, secure, and modular code execution backend using **microservices**.
+
