@@ -54,5 +54,5 @@ You can update the backend URL directly in the `handleRun` function or configure
 
 ## 👨‍💻 Author
 
-Built by **Yash Shukla** to provide a scalable, secure, and modular code execution backend using **microservices**.
+Built by **Yash Shukla** as part of a full-stack code execution playground using microservices architecture.
 
