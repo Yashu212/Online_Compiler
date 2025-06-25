@@ -71,7 +71,7 @@ function App() {
     }
 
     try {
-      const res = await fetch("https://codeeditor.up.railway.app/run", {
+      const res = await fetch("https://codeeditorbackend-nwip.onrender.com/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
